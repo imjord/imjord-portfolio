@@ -31,7 +31,7 @@ nav {
 
 
 .menu a {
-    color: #f8f8ff;
+    color: black;
     letter-spacing: 0.1rem;
     display: block;
     padding: 0.5rem 1rem;
@@ -40,7 +40,7 @@ nav {
 
 .menu a:hover {
     
-    color: #f8f8ff;
+    color:black;
     padding-left: 1.5rem;
 
 }
@@ -141,18 +141,18 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #f8f8ff;
-    color: #f8f8ff;
+    color: black;
     text-align: center;
     
   }
 footer a {
-    color: #f8f8ff;
+    color: black;
 
 }
 
 footer a:hover {
     font-size: 1rem;
-    color: #f8f8ff;
+    color: black;
 }
 
 
