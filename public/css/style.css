@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
- 
+    margin: 0%;
+    padding: 0%;
   
     
 }
@@ -8,8 +9,7 @@
 body {
     font-family: sans-serif;
     background-color: #ebebeb;
-    margin: 0%;
-    padding: 0%;
+   
     line-height: 2.2;
     font-size: .875rem;
 
@@ -24,14 +24,14 @@ a {
 }
 
 nav {
-    background-color: white;
+    background-color: #f8f8ff;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 
 
 .menu a {
-    color: gray;
+    color: #f8f8ff;
     letter-spacing: 0.1rem;
     display: block;
     padding: 0.5rem 1rem;
@@ -39,8 +39,8 @@ nav {
 }
 
 .menu a:hover {
-    background-color: #f8a5a5;
-    color: #e94949;
+    
+    color: #f8f8ff;
     padding-left: 1.5rem;
 
 }
@@ -61,6 +61,100 @@ nav {
     justify-content: space-around;
     padding: 1rem;
 }
+
+.about-title {
+    color: black;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+#about p {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#projects h1 {
+    color: black;
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.skills {
+    
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.skills-list {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+#css {
+    color: #f8f8ff;
+    -webkit-text-stroke: 0.3vw #383d52;
+    text-transform: uppercase;
+    
+}
+
+#css::before {
+    content: attr(data-text);
+    position: absolute;
+    color: black;
+    -webkit-text-stroke: 0vw #383d52;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+    0%,10%,100% 
+    {
+        width: 0;
+
+    }
+    70%,90% 
+    {
+        width: 100%;
+    }
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8ff;
+    color: #f8f8ff;
+    text-align: center;
+    
+  }
+footer a {
+    color: #f8f8ff;
+
+}
+
+footer a:hover {
+    font-size: 1rem;
+    color: #f8f8ff;
+}
+
 
 @media (min-width: 800px) {
     .nav-main{
