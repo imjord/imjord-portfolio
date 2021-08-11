@@ -112,23 +112,42 @@ nav {
     width: 50%;
 }
 
-#css {
+.myProjects {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    
+
+}
+
+.myProjects a {
+    color: black;
+}
+
+.myProjects a:hover {
+    color: black;
+    font-size: 1rem;
+}
+
+/* #css {
     color: #f8f8ff;
     -webkit-text-stroke: 0.3vw #383d52;
     text-transform: uppercase;
     
-}
+} */
 
-#css::before {
+/* #css::before {
     content: attr(data-text);
     position: absolute;
     color: black;
     -webkit-text-stroke: 0vw #383d52;
     overflow: hidden;
     animation: animate 6s linear infinite;
-}
+} */
 
-@keyframes animate {
+/* @keyframes animate {
     0%,10%,100% 
     {
         width: 0;
@@ -138,7 +157,7 @@ nav {
     {
         width: 100%;
     }
-}
+} */
 
 footer {
     position: fixed;
